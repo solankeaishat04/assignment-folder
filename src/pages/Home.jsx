@@ -64,7 +64,7 @@ function Home() {
         
           <label htmlFor="Gender"><strong>Gender:</strong></label>
           <select id="Gender" name="Gender" style={{ width:"70%", padding:"3px", marginBottom: "10px", solid: "#ccc", borderRadius:"5px", boxSizing:"border-box"}} value={form.Gender} onChange={handleChange}>
-            <option value="">Select</option>
+            <option value="">Select One</option>
             <option value="Male">Male</option>
             <option value="Female">Female</option>
           </select> <br />
